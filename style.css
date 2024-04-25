@@ -1,0 +1,116 @@
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+section{
+    color: white;
+
+/* From https://css.glass */
+background: rgba(7, 1, 192, 0.473);
+background: linear-gradient(45deg, #6a43f8c7 8%,#9a51becb 50%);
+border-radius: 16px;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 17.5px );
+-webkit-backdrop-filter: blur( 17.5px );
+border-radius: 10px;
+    height: 600px;
+    width: 1000px;
+    border-radius: 30px;
+    animation-timing-function: linear;  
+    border: 4px solid rgba( 255, 255, 255, 0.18 );
+    animation: MyDiv;
+    animation-duration: 4s;
+    animation-play-state: running;
+   
+    animation-iteration-count: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes MyDiv{
+    
+ 0%{
+    
+    border: 4px solid rgba( 255, 255, 255, 0.18 );
+ }
+ 30%{
+    border: 4px solid rgba(208, 136, 255, 0.18);
+
+ }
+ 50%{
+    border: 4px solid rgba(153, 3, 253, 0.18);
+
+ }
+ 75%{
+    border: 4px solid rgba(72, 84, 252, 0.18);
+
+ }
+ 90%{
+    border: 4px solid rgba(0, 17, 255, 0.18);
+
+ }
+ 100%{
+    border: 4px solid rgba(247, 31, 236, 0.18);
+
+ }
+
+}
+#um{
+    height: 1000px;
+    width: 100%;
+    background-image: url(https://img.freepik.com/premium-photo/purple-background-with-blue-background-word-love-it_873925-13735.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#superior{    
+    margin-top: 50px ;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#bandeira{
+  
+    height: 100px;
+    width: 150px;
+    left: 55%;
+    position:relative;
+}
+#credit{
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#numero{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+#numero-p{
+    font-size: 50px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#numero-p2{
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#aproximacao{
+position: absolute;
+bottom: 150%;
+left: 50%;
+}
+body::-webkit-scrollbar {
+    width: 0px;             
+  }
